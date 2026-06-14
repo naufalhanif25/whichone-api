@@ -212,10 +212,10 @@ All response bodies are wrapped in a unified structure to enforce consistency ac
 * **URL:** `/polls/{id}`
 * **Method:** `DELETE`
 * **Responses:**
-* **204 No Content:**
+* **200 OK:**
 ```json
 {
-    "code": 204,
+    "code": 200,
     "messages": "Poll deleted successfully",
     "data": null
 }
