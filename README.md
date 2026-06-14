@@ -87,11 +87,11 @@ All response bodies are wrapped in a unified structure to enforce consistency ac
     "options": [
         {
             "option": "Axum (Rust)",
-            "reference": "https://github.com/tokio-rs/axum",
+            "reference": "https://github.com/tokio-rs/axum"
         },
         {
             "option": "Express (JavaScript)",
-            "reference": null,
+            "reference": null
         }
     ]
 }
