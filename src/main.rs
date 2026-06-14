@@ -297,7 +297,7 @@ async fn delete_poll(
         |poll: &models::Poll| poll.id == id
     ) {
         polls.remove(index);
-        let code: StatusCode = StatusCode::NO_CONTENT;
+        let code: StatusCode = StatusCode::OK;
         (code, Json(
             ApiResponse::success(code, Some("Poll deleted successfully"), None)
         ))
